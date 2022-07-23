@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.paginationButton {
+  display: inline-block;
+  color: #000;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  border: 1px solid rgb(192, 185, 185);
+  cursor: pointer;
+
+  &.active {
+    border: 1px solid blue;
+  }
+}

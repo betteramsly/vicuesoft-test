@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  width: 80%;
+  margin: 20px auto 0;
+
+  .beerCardsList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 20px 10px;
+  }
+
+  .input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 16px;
+
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .pagination {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .paginationButton {
+    display: inline-block;
+    color: #000;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    border: 1px solid rgb(192, 185, 185);
+    cursor: pointer;
+
+    &.active {
+      border: 1px solid blue;
+    }
+  }
+}

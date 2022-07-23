@@ -1,0 +1,40 @@
+.beerFullCard {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: flex-start;
+  gap: 100px;
+  margin: 0 auto;
+  padding-top: 20px;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .beerImg {
+    max-width: 300px;
+    max-height: 500px;
+    object-fit: contain;
+  }
+
+  .beerInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .beerName {
+  }
+
+  .beerDesc {
+    max-width: 900px;
+  }
+
+  .beerBrewedDate {
+    
+  }
+}
